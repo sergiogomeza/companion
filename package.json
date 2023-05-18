@@ -1,0 +1,14 @@
+{
+  "name": "companion",
+  "version": "1.0.0",
+  "description": "Companion project with uppy",
+  "main": "index.js",
+  "scripts": {
+    "start-api": "npm start --prefix api",
+    "start-client": "npm start --prefix client",
+    "start": "npm run start-client & npm run start-api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Gómez Arboleda",
+  "license": "ISC"
+}
