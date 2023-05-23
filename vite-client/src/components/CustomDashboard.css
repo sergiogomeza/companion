@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/*
+  Uppy Powered by changed color
+*/
+a.uppy-Dashboard-poweredBy {
+  display: inline-block;
+  margin-top: 8px;
+  color: #990000;
+  font-size: 11px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.uppy-Dashboard-poweredByIcon {
+  opacity: 0.9;
+  fill: none;
+  stroke: #990000;
+  margin-right: 1px;
+  margin-left: 1px;
+  top: 1px;
+  position: relative;
+  vertical-align: text-top;
+}
