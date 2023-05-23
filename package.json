@@ -4,7 +4,7 @@
   "description": "Companion project with uppy",
   "main": "index.js",
   "scripts": {
-    "start-api": "npm start --prefix api",
+    "start-api": "npm run start:debug --prefix api",
     "start-client": "npm start --prefix client",
     "start": "npm run start-client & npm run start-api",
     "test": "echo \"Error: no test specified\" && exit 1"
